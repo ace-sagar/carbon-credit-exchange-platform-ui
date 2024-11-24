@@ -12,8 +12,14 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		5C09183F00E541919B00E5B3 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BBBE69F868264D099DE0D921 /* Poppins-SemiBold.ttf */; };
+		6C57C87741924D3F8F9B1EC9 /* Poppins-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 279F17878641486D95E7DBAD /* Poppins-ExtraBold.ttf */; };
 		7699B88040F8A987B510C191 /* libPods-CarbonCreditExchangeApp-CarbonCreditExchangeAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-CarbonCreditExchangeApp-CarbonCreditExchangeAppTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		9959885A78AD417FA6216618 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FF41B0648FF540BA935EFDD6 /* Poppins-Bold.ttf */; };
+		A71E2AABBA004BEBBC1F1009 /* Poppins-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 006C0685E68843279B893820 /* Poppins-Black.ttf */; };
+		D7D9304C2CC44F91B336CE52 /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 39E4E16084A440DDBA8E714F /* Poppins-Medium.ttf */; };
+		E752F909FCF64F168C48D948 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6013B79D030A40968E1EAB12 /* Poppins-Regular.ttf */; };
 		F8D91BB553D36AD5A8B23844 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = F8CD40944BE67839B1726E28 /* PrivacyInfo.xcprivacy */; };
 /* End PBXBuildFile section */
 
@@ -28,6 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		006C0685E68843279B893820 /* Poppins-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Black.ttf"; path = "../src/assets/fonts/Poppins-Black.ttf"; sourceTree = "<group>"; };
 		00E356EE1AD99517003FC87E /* CarbonCreditExchangeAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarbonCreditExchangeAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* CarbonCreditExchangeAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CarbonCreditExchangeAppTests.m; sourceTree = "<group>"; };
@@ -39,14 +46,19 @@
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = CarbonCreditExchangeApp/main.m; sourceTree = "<group>"; };
 		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = CarbonCreditExchangeApp/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		19F6CBCC0A4E27FBF8BF4A61 /* libPods-CarbonCreditExchangeApp-CarbonCreditExchangeAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CarbonCreditExchangeApp-CarbonCreditExchangeAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		279F17878641486D95E7DBAD /* Poppins-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-ExtraBold.ttf"; path = "../src/assets/fonts/Poppins-ExtraBold.ttf"; sourceTree = "<group>"; };
+		39E4E16084A440DDBA8E714F /* Poppins-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Medium.ttf"; path = "../src/assets/fonts/Poppins-Medium.ttf"; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-CarbonCreditExchangeApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarbonCreditExchangeApp.debug.xcconfig"; path = "Target Support Files/Pods-CarbonCreditExchangeApp/Pods-CarbonCreditExchangeApp.debug.xcconfig"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-CarbonCreditExchangeApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarbonCreditExchangeApp.release.xcconfig"; path = "Target Support Files/Pods-CarbonCreditExchangeApp/Pods-CarbonCreditExchangeApp.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-CarbonCreditExchangeApp-CarbonCreditExchangeAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarbonCreditExchangeApp-CarbonCreditExchangeAppTests.debug.xcconfig"; path = "Target Support Files/Pods-CarbonCreditExchangeApp-CarbonCreditExchangeAppTests/Pods-CarbonCreditExchangeApp-CarbonCreditExchangeAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-CarbonCreditExchangeApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CarbonCreditExchangeApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6013B79D030A40968E1EAB12 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Regular.ttf"; path = "../src/assets/fonts/Poppins-Regular.ttf"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = CarbonCreditExchangeApp/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-CarbonCreditExchangeApp-CarbonCreditExchangeAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarbonCreditExchangeApp-CarbonCreditExchangeAppTests.release.xcconfig"; path = "Target Support Files/Pods-CarbonCreditExchangeApp-CarbonCreditExchangeAppTests/Pods-CarbonCreditExchangeApp-CarbonCreditExchangeAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		BBBE69F868264D099DE0D921 /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-SemiBold.ttf"; path = "../src/assets/fonts/Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		F8CD40944BE67839B1726E28 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = CarbonCreditExchangeApp/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		FF41B0648FF540BA935EFDD6 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Bold.ttf"; path = "../src/assets/fonts/Poppins-Bold.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +139,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				F8678539DD42454FACA4FD2F /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -151,6 +164,20 @@
 				89C6BE57DB24E9ADA2F236DE /* Pods-CarbonCreditExchangeApp-CarbonCreditExchangeAppTests.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		F8678539DD42454FACA4FD2F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				006C0685E68843279B893820 /* Poppins-Black.ttf */,
+				FF41B0648FF540BA935EFDD6 /* Poppins-Bold.ttf */,
+				279F17878641486D95E7DBAD /* Poppins-ExtraBold.ttf */,
+				39E4E16084A440DDBA8E714F /* Poppins-Medium.ttf */,
+				6013B79D030A40968E1EAB12 /* Poppins-Regular.ttf */,
+				BBBE69F868264D099DE0D921 /* Poppins-SemiBold.ttf */,
+			);
+			name = Resources;
+			path = "";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,6 +276,12 @@
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				F8D91BB553D36AD5A8B23844 /* PrivacyInfo.xcprivacy in Resources */,
+				A71E2AABBA004BEBBC1F1009 /* Poppins-Black.ttf in Resources */,
+				9959885A78AD417FA6216618 /* Poppins-Bold.ttf in Resources */,
+				6C57C87741924D3F8F9B1EC9 /* Poppins-ExtraBold.ttf in Resources */,
+				D7D9304C2CC44F91B336CE52 /* Poppins-Medium.ttf in Resources */,
+				E752F909FCF64F168C48D948 /* Poppins-Regular.ttf in Resources */,
+				5C09183F00E541919B00E5B3 /* Poppins-SemiBold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
