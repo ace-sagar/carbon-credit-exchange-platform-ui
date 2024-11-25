@@ -32,8 +32,8 @@ const TabNavigator = () => {
                 options={{ tabBarIcon: ({ focused }) => (<Icon name="home-outline" color={focused ? "#6DB049" : '#c0c0c0'} type="ionicon" size={25} />) }} />
             <Tab.Screen name="Portfolio" component={Portfolio}
                 options={{ tabBarIcon: ({ focused }) => (<Icon name="grid-outline" color={focused ? "#6DB049" : '#c0c0c0'} type="ionicon" size={25} />) }} />
-            <Tab.Screen name="Transactions" component={Transactions}
-                options={{ tabBarIcon: ({ focused }) => (<Icon name="receipt-outline" color={focused ? "#6DB049" : '#c0c0c0'} type="ionicon" size={25} />) }} />
+            {/* <Tab.Screen name="Transactions" component={Transactions}
+                options={{ tabBarIcon: ({ focused }) => (<Icon name="receipt-outline" color={focused ? "#6DB049" : '#c0c0c0'} type="ionicon" size={25} />) }} /> */}
             <Tab.Screen name="MarketAnalysis" component={MarketAnalysis}
                 options={{ tabBarIcon: ({ focused }) => (<Icon name="analytics-outline" color={focused ? "#6DB049" : '#c0c0c0'} type="ionicon" size={25} />) }} />
            

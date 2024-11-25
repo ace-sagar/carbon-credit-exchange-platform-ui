@@ -71,7 +71,7 @@ const PurchaseHistoryDetails = ({ navigation }) => {
                         </View>
                     </View>
 
-                    <View>
+                    {/* <View>
                         <TabView
                             navigationState={{ index, routes }}
                             renderScene={renderScene}
@@ -83,7 +83,7 @@ const PurchaseHistoryDetails = ({ navigation }) => {
                              tabBarIndicatorStyle: { backgroundColor: '#6DB049' },
                              }}
                         />
-                    </View>
+                    </View> */}
 
                 </ScrollView>
             </View>

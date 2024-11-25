@@ -247,5 +247,23 @@ module.exports = StyleSheet.create({
         fontFamily:PoppinsSemiBold,
         color: grey,
         height:40
+    },
+    carousel:{
+        width:Dimensions.get('window').width/1.8,
+        margin:10,
+        height: 130,
+        padding:10,
+        justifyContent: "center",
+        borderRadius: 10
+    },
+    pillButton:{
+        width:Dimensions.get('window').width/1.5,
+        margin:10,
+        padding:10,
+        justifyContent: "center",
+        alignSelf:"center",
+        alignItems:"center",
+        borderRadius: 30,
+        backgroundColor:primaryColor
     }
 });

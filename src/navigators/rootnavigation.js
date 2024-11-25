@@ -9,13 +9,17 @@ import RealTimeTrading from '../screens/DashboardScreens/realtimetradingscreen';
 import TabNavigator from './TabNavigator';
 import TopTabNavigator from './toptabnavigator';
 import PurchaseHistoryDetails from '../screens/DashboardScreens/purchasehistorydetails';
+import SummaryAmount from '../screens/DashboardScreens/summaryamountscreen';
+import Profile from '../screens/ProfileScreens/profile';
 
 const Stack = createNativeStackNavigator();
 
 const RootNavigation = () => {
     return(
         <NavigationContainer>
-            <Stack.Navigator initialRouteName='TabNavigator'>
+            <Stack.Navigator 
+            // initialRouteName='TabNavigator'
+            >
                 <Stack.Screen name="SignInScreen" component={SigninScreen} options={{ headerShown: false }}/>
                 <Stack.Screen name="SignUpScreen" component={SignupSreen} options={{ headerShown: false }}/>
                 <Stack.Screen name="ForgotPasswordScreen" component={ForgotPassword} options={{ headerShown: false }}/>
@@ -23,6 +27,8 @@ const RootNavigation = () => {
                 <Stack.Screen name="TabNavigator" component={TabNavigator} options={{ headerShown: false }}/>
                 <Stack.Screen name="TopTabs" component={TopTabNavigator} options={{ headerShown: false }}/>
                 <Stack.Screen name='PurchaseHistoryDetailsScreen' component={PurchaseHistoryDetails} options={{ headerShown: false }}/>
+                <Stack.Screen name='SummaryAmountScreen' component={SummaryAmount} options={{ headerShown: false }}/>
+                <Stack.Screen name="ProfileScreen" component={Profile} options={{ headerShown: false }}/>
             </Stack.Navigator>
         </NavigationContainer>
     )

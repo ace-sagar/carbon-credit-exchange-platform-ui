@@ -63,8 +63,8 @@ const SellCredit = ({ navigation }) => {
                     </View>
 
                     <View>
-                        <TouchableOpacity style={[styles.button, { marginTop: 20 }]} onPress={() => navigation.navigate("TabNavigator")}>
-                            <Text style={{ ...styles.h4, color: "white" }}>Sell</Text>
+                        <TouchableOpacity style={[styles.button, { marginTop: 20 }]} onPress={() => navigation.navigate("SummaryAmountScreen")}>
+                            <Text style={{ ...styles.h4, color: "white" }}>Review</Text>
                         </TouchableOpacity>
                     </View>
                 </View>
