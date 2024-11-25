@@ -20,29 +20,32 @@ const SigninScreen = ({ navigation }) => {
 
                     <View style={{ padding: 20 }}>
                         <Text style={styles.h3}>Welcome Back!</Text>
-                        <Text style={{ ...styles.h5, color: grey }}>Enter your email and password</Text>
+                        <Text style={{ ...styles.h5, color:grey }}>Enter your email and password</Text>
 
                         <TextInput
                             keyboardType="email-address"
                             returnKeyType='done'
+                            placeholderTextColor={grey}
                             placeholder='Email'
                             onChangeText={(e) => { setEmail(e) }}
                             value={email}
-                            style={{ ...styles.inputText, paddingLeft: 10 }} />
+                            style={{ ...styles.inputText, paddingLeft: 10,color:grey }} />
 
                         <TextInput
                             keyboardType='default'
                             returnKeyType='done'
+                            placeholderTextColor={grey}
                             placeholder='Password'
                             onChangeText={(e) => { setPassword(e) }}
                             value={password}
-                            style={{ ...styles.inputText, paddingLeft: 10 }} />
+                            secureTextEntry={true}
+                            style={{ ...styles.inputText, paddingLeft: 10,color:grey }} />
 
                         <Text onPress={() => { navigation.navigate("ForgotPasswordScreen") }} style={[styles.h5, { color: grey, alignSelf: "flex-end", marginTop: 20 }]}>
                             Forgot Password?
                         </Text>
 
-                        <TouchableOpacity style={[styles.button, { marginTop: 20 }]}>
+                        <TouchableOpacity style={[styles.button, { marginTop: 20 }]} onPress={()=>navigation.navigate("TabNavigator")}>
                             <Text style={{ ...styles.h4, color: "white" }}>Sign In</Text>
                         </TouchableOpacity>
 

@@ -27,37 +27,41 @@ const SignupScreen = ({ navigation }) => {
                         <TextInput
                             keyboardType="default"
                             returnKeyType='done'
+                            placeholderTextColor={grey}
                             placeholder='Name'
                             onChangeText={(e) => { setName(e) }}
                             value={name}
-                            style={{ ...styles.inputText, paddingLeft: 10 }} />
+                            style={{ ...styles.inputText, paddingLeft: 10,color:grey }} />
 
                         <TextInput
                             keyboardType="email-address"
                             returnKeyType='done'
+                            placeholderTextColor={grey}
                             placeholder='Email'
                             onChangeText={(e) => { setEmail(e) }}
                             value={email}
-                            style={{ ...styles.inputText, paddingLeft: 10 }} />
+                            style={{ ...styles.inputText, paddingLeft: 10,color:grey }} />
 
                         <TextInput
                             keyboardType='default'
                             returnKeyType='done'
+                            placeholderTextColor={grey}
                             placeholder='Password'
                             onChangeText={(e) => { setPassword(e) }}
                             value={password}
-                            style={{ ...styles.inputText, paddingLeft: 10 }} />
+                            style={{ ...styles.inputText, paddingLeft: 10,color:grey }} />
 
                         <TextInput
                             keyboardType='default'
                             returnKeyType='done'
+                            placeholderTextColor={grey}
                             placeholder='Confirm password'
                             onChangeText={(e) => { setConfirmPassword(e) }}
                             value={confirmPassword}
-                            style={{ ...styles.inputText, paddingLeft: 10 }} />
+                            style={{ ...styles.inputText, paddingLeft: 10,color:grey }} />
 
 
-                        <TouchableOpacity style={[styles.button, { marginTop: 20 }]}>
+                        <TouchableOpacity style={[styles.button, { marginTop: 20 }]} onPress={()=>navigation.navigate("TabNavigator")}>
                             <Text style={{ ...styles.h4, color: "white" }}>Sign Up</Text>
                         </TouchableOpacity>
                         <TouchableOpacity onPress={() => { navigation.navigate("SignInScreen")}}>

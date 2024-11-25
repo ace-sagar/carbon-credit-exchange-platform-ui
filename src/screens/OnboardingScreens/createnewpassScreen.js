@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { View, Text, SafeAreaView, Image, Dimensions, TextInput, TouchableOpacity, ScrollView } from 'react-native';
 import { Input, Icon } from 'react-native-elements';
-import { grey } from '../../constants/colors';
+import { grey, white } from '../../constants/colors';
 import { RFValue } from 'react-native-responsive-fontsize';
 import { color } from 'react-native-elements/dist/helpers';
 
@@ -26,6 +26,7 @@ const CreateNewPassword = ({ navigation }) => {
                             keyboardType='default'
                             returnKeyType='done'
                             placeholder='Password'
+                            placeholderTextColor={grey}
                             onChangeText={(e) => { setPassword(e) }}
                             value={password}
                             style={{ ...styles.inputText, paddingLeft: 10 }} />
@@ -34,14 +35,16 @@ const CreateNewPassword = ({ navigation }) => {
                             keyboardType='default'
                             returnKeyType='done'
                             placeholder='Confirm password'
+                            placeholderTextColor={grey}
+                            secureTextEntry={true}
                             onChangeText={(e) => { setConfirmPassword(e) }}
                             value={confirmPassword}
-                            style={{ ...styles.inputText, paddingLeft: 10 }} />
+                            style={{ ...styles.inputText, paddingLeft: 10,color:grey }} />
 
                         <TouchableOpacity
-                            onPress={() => { navigation.navigate('SigninScreen') }}
+                            onPress={() => { navigation.navigate('SignInScreen') }}
                             style={[styles.button,{marginTop:30}]}>
-                            <Text style={{ ...styles.h4, color: '#fff' }}>Change Password</Text>
+                            <Text style={{ ...styles.h4, color: white }}>Change Password</Text>
                         </TouchableOpacity>
                     </View>
                 </ScrollView>

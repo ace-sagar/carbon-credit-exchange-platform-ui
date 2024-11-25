@@ -1,6 +1,7 @@
 import { Dimensions, StyleSheet } from 'react-native';
 import { RFPercentage, RFValue } from "react-native-responsive-fontsize";
-import { primaryColor } from '../constants/colors';
+import { grey, lightGrey, primaryColor, secondaryColor, white } from '../constants/colors';
+import { PoppinsBold, PoppinsMedium, PoppinsRegular, PoppinsSemiBold } from '../constants/fonts';
 
 module.exports = StyleSheet.create({
     safeAreaView: {
@@ -14,67 +15,67 @@ module.exports = StyleSheet.create({
 
     h1: {
         fontSize: RFValue(25, 580),
-        fontFamily: "Poppins-SemiBold",
+        fontFamily: PoppinsSemiBold
     },
 
     h2: {
         fontSize: RFValue(18, 580),
-        fontFamily: "Poppins-SemiBold",
+        fontFamily: PoppinsSemiBold,
         color: '#222222'
     },
 
     h3: {
         fontSize: RFValue(14.72, 580),
-        fontFamily: "Poppins-SemiBold",
+        fontFamily: PoppinsSemiBold,
         color: '#222222'
     },
 
     h4: {
         fontSize: RFValue(12, 580),
-        fontFamily: "Poppins-SemiBold",
+        fontFamily: PoppinsSemiBold,
         color: '#222222'
     },
 
     h5: {
         fontSize: RFValue(9.25, 580),
-        fontFamily: "Poppins-SemiBold",
+        fontFamily: PoppinsSemiBold,
         color: '#222222'
     },
 
     h6: {
         fontSize: RFValue(9, 580),
-        fontFamily: "Poppins-SemiBold",
+        fontFamily: PoppinsSemiBold,
         color: '#222222'
     },
     smallHeading:
     {
         fontSize: RFValue(11, 580),
-        fontFamily: "Poppins-SemiBold",
+        fontFamily: PoppinsSemiBold,
         color: '#5d5d5d',
     },
     small:
     {
         fontSize: RFValue(10, 580),
-        fontFamily: "Poppins-Regular",
+        fontFamily: PoppinsRegular,
         color: '#5d5d5d',
         marginLeft: 15
     },
     p:
     {
         fontSize: RFValue(11, 580),
-        fontFamily: "Poppins-Regular",
+        fontFamily: PoppinsRegular,
         marginTop: 5,
         color: '#5d5d5d',
     },
     p1:
     {
         fontSize: RFValue(9, 580),
-        fontFamily: "Poppins-Medium",
+        fontFamily: PoppinsMedium,
         color: '#5d5d5d',
     },
     text: {
         fontSize: RFValue(12, 580),
-        fontFamily: "Poppins-SemiBold",
+        fontFamily: PoppinsSemiBold,
         marginTop: 5
     },
 
@@ -83,7 +84,7 @@ module.exports = StyleSheet.create({
         // color:"#000",
         // fontSize:24,
         fontSize: RFValue(18, 580),
-        fontFamily: "Poppins-Bold",
+        fontFamily: PoppinsBold,
         marginTop: 10,
         marginLeft: 15
     },
@@ -102,7 +103,7 @@ module.exports = StyleSheet.create({
         shadowRadius: 10,
         shadowOffset: { width: 1, height: 1 },
         fontSize: RFValue(14.5, 580),
-        fontFamily: "Poppins-Regular",
+        fontFamily: PoppinsRegular,
     },
     inputText: {
         marginTop: 20,
@@ -117,11 +118,11 @@ module.exports = StyleSheet.create({
         shadowOpacity: 0.2,
         shadowRadius: 3,
         fontSize: RFValue(10, 580),
-        fontFamily: "Poppins-Medium",
+        fontFamily: PoppinsMedium,
     },
     box: {
         flexDirection: "row",
-        backgroundColor: '#fff',
+        backgroundColor: white,
         shadowColor: 'grey',
         shadowOffset: { width: -2, height: 4 },
         shadowOpacity: 0.2,
@@ -187,7 +188,7 @@ module.exports = StyleSheet.create({
         alignSelf: "center"
     },
     button: {
-        backgroundColor: "#6DB049",
+        backgroundColor: primaryColor,
         width: Dimensions.get('window').width / 1.1,
         height: 50,
         alignSelf: "center",
@@ -197,17 +198,17 @@ module.exports = StyleSheet.create({
     },
     header: {
         padding: 10,
-        borderBottomLeftRadius: 10,
-        borderBottomRightRadius: 10,
-        backgroundColor: "#6DB049",
-        height: 60
+        borderBottomLeftRadius: 20,
+        borderBottomRightRadius: 20,
+        backgroundColor: primaryColor,
+        height: 80
     },
     boxSmall:{
         flexDirection: "row",
         width:100,
         backgroundColor: '#fff',
         padding: 20,
-        shadowColor: 'grey',
+        shadowColor: grey,
         shadowOffset: { width: -2, height: 4 },
         shadowOpacity: 0.2,
         shadowRadius: 3,
@@ -216,12 +217,35 @@ module.exports = StyleSheet.create({
         alignItems:"center"
     },
     smallButton: {
-        backgroundColor: "#CAE2A6",
+        backgroundColor: secondaryColor,
         width: 80,
         height: 35,
         alignSelf: "center",
         alignItems: "center",
         justifyContent: "center",
-        borderRadius:5
+        borderRadius:20
+    },
+    squareBox:{
+        backgroundColor: '#fff',
+        padding:10,
+        width:Dimensions.get('window').width/2.3,
+        borderRadius: 10,
+        alignItems: "flex-start",
+        justifyContent: "center",
+        marginHorizontal: 5,
+        borderWidth: 1,
+        borderColor: lightGrey,
+        margin:10,
+    },
+    smallInput:{
+        borderBottomColor: lightGrey,
+        borderWidth: 1,
+        borderColor: lightGrey,
+        borderRadius: 10,
+        width: Dimensions.get('window').width / 2.5,
+        fontSize: RFValue(10, 580),
+        fontFamily:PoppinsSemiBold,
+        color: grey,
+        height:40
     }
 });
