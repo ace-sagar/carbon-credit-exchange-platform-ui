@@ -56,7 +56,7 @@ const RealTimeTrading = ({ navigation }) => {
                 {/* View for header */}
                 <View style={[styles.header, { flexDirection: "row" }]}>
                     <View style={{ width: "80%" }}>
-                        <Text numberOfLines={1} style={[styles.h3, { color: white, letterSpacing: 1, paddingHorizontal: 10, marginTop: 5 }]}>Hi, Sunaina</Text>
+                        <Text numberOfLines={1} style={[styles.h3, { color: white, letterSpacing: 1, paddingHorizontal: 10, marginTop: 5 }]}>Hi, User</Text>
                         <Text style={[styles.h5, { color: white, letterSpacing: 0.5, paddingHorizontal: 10 }]}>Let's neutralize your carbon footprint</Text>
                     </View>
                     <View style={{ width: "20%", justifyContent: "center" }}>

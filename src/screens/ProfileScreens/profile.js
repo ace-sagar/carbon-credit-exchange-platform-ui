@@ -78,7 +78,7 @@ const Profile = ({ navigation }) => {
                         backgroundColor: pastelGreen, width: Dimensions.get('window').width / 1.1
                     }}>
                         <View>
-                            <Text style={[styles.h3, { color: darkgrey, marginLeft: 10 }]}>Sunaina</Text>
+                            <Text style={[styles.h3, { color: darkgrey, marginLeft: 10 }]}>User</Text>
                             <Text style={[styles.h5, { color: darkgrey, marginLeft: 10 }]}>+91 1234567890</Text>
                         </View>
 
